@@ -80,6 +80,7 @@ $(function () {
         var toggleName = sidebarDom.attr('data-toggle');
 
         if (toggleName == 'sidebar-hide') {
+            sidebarDom.css('visibility', 'visible').css('z-index', '10000');
             sidebarDom.removeClass('sidebar-hide');
             sidebarDom.addClass('sidebar-show');
             sidebarDom.attr('data-toggle', 'sidebar-show');
@@ -87,6 +88,7 @@ $(function () {
             sidebarDom.removeClass('sidebar-show');
             sidebarDom.addClass('sidebar-hide');
             sidebarDom.attr('data-toggle', 'sidebar-hide');
+            sidebarDom.css('visibility', 'visible').css('z-index', '0');
         }
     });
 

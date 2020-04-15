@@ -274,7 +274,8 @@ li input[type=checkbox] {
 		left: 0px;
 		width: 80%;
 		background: #ffffff;
-		z-index: 9999;
+		z-index: 9996;
+		visibility: hidden;
 		max-height: calc(100vh - 62px);
 		border-right: 1px solid #EDEDED;
 		height: 100%;
@@ -299,12 +300,9 @@ li input[type=checkbox] {
 	}
 
 	/* 内容 */
-	.content {
-		width: 76%;
-	}
 	.markdown {
-		margin: 0;
-		padding: 30px 15px;
+		margin: 0 15px!important;
+		padding: 20px 0 15px 0!important;
 	}
 
 	/* 文档结构 */

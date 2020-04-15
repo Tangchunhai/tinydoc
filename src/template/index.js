@@ -1,4 +1,5 @@
 module.exports = {
+    version: new Date().getTime(),
     getSideDocumentsTemplate(option) {
         // 上一页
         let upperPageHtml = '';
@@ -29,14 +30,14 @@ module.exports = {
                 <title>${option.title}</title>
                 <meta name="viewport"
                     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-                <link rel="stylesheet" href="${option.docsDir}static/css/docs.css">
-                <link type="text/css" href="${option.docsDir}static/css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-                <link type="text/css" href="${option.docsDir}static/css/atom-one-dark.css" rel="stylesheet" media="all" />
-                <script src="${option.docsDir}static/js/jquery-1.10.2.js"></script>
-                <script src="${option.docsDir}static/js/jquery.mousewheel.js"></script>
-                <script src="${option.docsDir}static/js/jquery.jscrollpane.min.js"></script>
-                <script src="${option.docsDir}static/js/highlight.min.js"></script>
-                <script src="${option.docsDir}static/js/docs.js"></script>
+                <link rel="stylesheet" href="${option.docsDir}static/css/docs.css?v=${this.version}">
+                <link type="text/css" href="${option.docsDir}static/css/jquery.jscrollpane.css?v=${this.version}" rel="stylesheet" media="all" />
+                <link type="text/css" href="${option.docsDir}static/css/atom-one-dark.css?v=${this.version}" rel="stylesheet" media="all" />
+                <script src="${option.docsDir}static/js/jquery-1.10.2.js?v=${this.version}"></script>
+                <script src="${option.docsDir}static/js/jquery.mousewheel.js?v=${this.version}"></script>
+                <script src="${option.docsDir}static/js/jquery.jscrollpane.min.js?v=${this.version}"></script>
+                <script src="${option.docsDir}static/js/highlight.min.js?v=${this.version}"></script>
+                <script src="${option.docsDir}static/js/docs.js?v=${this.version}"></script>
             </head>
             
             <body>
@@ -105,12 +106,12 @@ module.exports = {
                 <title>${option.title}</title>
                 <meta name="viewport"
                     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-                <link rel="stylesheet" href="${option.docsDir}static/css/docs.css">
-                <link type="text/css" href="${option.docsDir}static/css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-                <script src="${option.docsDir}static/js/jquery-1.10.2.js"></script>
-                <script src="${option.docsDir}static/js/jquery.mousewheel.js"></script>
-                <script src="${option.docsDir}static/js/jquery.jscrollpane.min.js"></script>
-                <script src="${option.docsDir}static/js/docs.js"></script>
+                <link rel="stylesheet" href="${option.docsDir}static/css/docs.css?v=${this.version}">
+                <link type="text/css" href="${option.docsDir}static/css/jquery.jscrollpane.css?v=${this.version}" rel="stylesheet" media="all" />
+                <script src="${option.docsDir}static/js/jquery-1.10.2.js?v=${this.version}"></script>
+                <script src="${option.docsDir}static/js/jquery.mousewheel.js?v=${this.version}"></script>
+                <script src="${option.docsDir}static/js/jquery.jscrollpane.min.js?v=${this.version}"></script>
+                <script src="${option.docsDir}static/js/docs.js?v=${this.version}"></script>
             </head>
             
             <body>
