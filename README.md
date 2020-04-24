@@ -3,10 +3,10 @@
 
 ## 我的使用场景
 1、搭建班子
-<img src="https://github.com/Tangchunhai/tinydoc/blob/master/example/static/images/example/1.png" />
+<img src="https://github.com/Tangchunhai/tinydoc/blob/master/example/static/images/example/3.png" />
 
 2、团队代码规范文档
-<img src="https://github.com/Tangchunhai/tinydoc/blob/master/example/static/images/example/2.png" />
+<img src="https://github.com/Tangchunhai/tinydoc/blob/master/example/static/images/example/4.png" />
 
 ## tinydoc介绍
 tinydoc是一款微文档生成系统，用Markdown格式编写，可以快速的写出文档，基于Node.js编译生成一个完整的HTML静态网站。
