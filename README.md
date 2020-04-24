@@ -26,6 +26,12 @@ tinydoc是一款微文档生成系统，用Markdown格式编写，可以快速�
 ### 网址导航
 编辑项目根目录nav.md编辑菜单导航配置文件，对应文件目录编写Markdown文件即可，导航目录统一放在nav目录下。
 
+## 安装
+```
+npm install
+````
+
 ## 生成静态
 ```
 npm run build
+````
