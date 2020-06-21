@@ -94,7 +94,11 @@ $(function () {
 
     // 窗口自适应
     $(window).resize(function() {
-        $('.scroll-pane').css('max-height', 'calc(100vh - 62px)');
+        // 侧栏滚动条自适应
+        $('.scroll-pane').css('height', 'calc(100vh - 62px)');
+
+        // PC端隐藏去掉层级
+        $('#J-sidebar').removeAttr('style');
     });
 
     // 点击锚点定位，解决偏移
