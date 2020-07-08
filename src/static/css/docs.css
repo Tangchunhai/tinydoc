@@ -216,6 +216,7 @@ li input[type=checkbox] {
 }
 .catalog-nav > .h2 {
 	padding-left: 24px;
+	font-weight: bold;
 }
 .catalog-nav > .h3 {
 	padding-left: 36px;
